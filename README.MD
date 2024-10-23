@@ -24,6 +24,12 @@ To run the segmentation tool, execute the following command:
 python main.py
 ```
 
+
+
+## HOWTO: Ugrade Pip Install in Python Terminal
+PS H:\CODING\PROJECT_IST\ImageSegmentation> python.exe -m pip install --upgrade pip      
+
+
 ## Set Up Virtual Environment
 
 py -m venv ist-env
