@@ -93,7 +93,8 @@ def process_image(current_image): #1. Process Image
 
     # To apply k-means clustering --> need to reshape to 2D array
 
-    #Get dimensions of 3D image (height, width, number of channels)
+    #Get dimensions of 3D image (height, width, RGBA format model/channel)
+    print(image.shape)
     h, w, c = image.shape
 
     #Reshape image into 2D array of pixels and 2 color values (RGB)
@@ -125,47 +126,34 @@ class KMeans():
 
     def initialize_centroids(self, data):
         #Randomly choose k data points (pixels) to be "initial centroids"
-        self.centroids = data[]
-
-
-
-
-
-
-
-
-
-    def identify_segments():
-    #Identify K number of segments
-    #Image is 3D shape. To apply k-means clustering --> need to reshape to 2D arra
-        
-        return
-
-
-
-
-    def identify_segments(): #2. Prepare data for K-Means
+        #self.centroids = data[]
 
 
         return
 
-    def calculate_initial_means():
-        
+
+
+    def assign_clusters_to_centroids(self, data):
+        #Assign each data pixel point to their closest "initial centroid"
+
+
+
 
         return
 
-    def create_clusters():
-        #Assign each data point to the closest mean
 
-        return
-
-    def recompute_means():
+    def update_centroid_means(self, data):
         #Calculate the center of the clusters
         #Calculate the distance of the data points from the center of each of the clusters
         #Depending on the distance of each data point of teh cluster, reassign the data 
         #points to teh nearest clusters
 
+    
         return
+
+
+
+
 
     def evaluate_threshold():
 
@@ -183,6 +171,8 @@ class KMeans():
 #Read in image
 #HOWTO: cv2.imread('image file path')
 image = cv2.imread('H:\\CODING\\PROJECT_IST\\flower.jpg')
+
+#Process Image: PROCESS_IMAGE Function
 image_pixel_dataset = process_image(image)
 
 plt.imshow(image_pixel_dataset)
