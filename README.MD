@@ -83,3 +83,23 @@
    ```bash
    git push origin main
    ```
+
+
+
+
+##### NOTES & RESOURCES ########################################################################
+
+%matplotlib inline #Creates matplotlib commands inline to include within file
+
+Explanation of #matplotlib inline
+https://stackoverflow.com/questions/43027980/purpose-of-matplotlib-inline
+
+Displaying images in browser code outline
++ Opening images in different color scales
+https://www.geeksforgeeks.org/reading-image-opencv-using-python/
+
+Introductory Code Assistance on K-Means Image sort and algorithm
+https://www.geeksforgeeks.org/image-segmentation-using-k-means-clustering/
+
+Walkthrough of K means from Scratch
+https://www.youtube.com/watch?v=5w5iUbTlpMQ
